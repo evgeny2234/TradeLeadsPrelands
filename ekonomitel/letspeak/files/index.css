@@ -1,0 +1,132 @@
+/* ::::: http://new.economia-energii.com/css/form.css?lvcss=201406092057 ::::: */
+
+.lv-order-form div.lv-row { display: block; margin-bottom: 8px; }
+.lv-order-form input[type="text"], .lv-order-form select, .lv-order-form textarea { display: block; width: 100%; padding: 5px; height: 30px; border: thin solid rgb(191, 191, 191); border-radius: 4px; color: inherit; }
+.lv-order-form .lv-label span.required { color: red; }
+.lv-order-form .lv-label label { display: inline; }
+.lv-order-form .lv-order-button { display: block; padding: 10px 20px; margin: 0px auto; }
+.lv-order-form-css { padding: 15px; border: thin solid gray; }
+.lv-order-form-css input[type="text"], .lv-order-form-css select, .lv-order-form-css textarea { box-sizing: border-box; }
+/* ::::: http://poleznie-sovety.ru/leadvertex/economia-energii/new.economia-energii.com/files/css/styles.css ::::: */
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: local("OpenSans-Regular"), url('../images/opensans-regular.ttf');
+}
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: local("OpenSans-Bold"), url('../images/opensans-bold.ttf');
+}
+@font-face {
+	font-family: "OpenSans-Semibold";
+	src: local("OpenSans-Semibold"), url('../images/opensans-semibold.ttf');
+}
+body, img { padding: 0px; margin: 0px; font-family: OpenSans-Regular; }
+body input { font-family: OpenSans-Regular; }
+#header { background-color: rgb(26, 187, 156); width: 100%; height: 42px; z-index: 1; text-align: center; font-size: 27px; color: white; font-family: OpenSans-Bold;}
+#header2 { margin: 35px auto auto; width: 782px; border: 3px solid rgb(26, 188, 156); padding: 10px 0px; font-size: 27px; color: white; text-align: center; }
+#header_image { width: 100%; margin: 0px auto; background: url('../images/headerimage.jpg') no-repeat scroll center top transparent; overflow: auto; }
+#box { background: url('../images/box.png') no-repeat scroll center center transparent; width: 345px; height: 352px; float: left; margin-top: -44px; margin-left: -34px; }
+#discount center { font-size: 12px; margin-top: -7px; margin-left: 40px; color: white; margin-bottom: 5px; }
+#discount { float: left; width: 331px; height: 300px; margin-top: 30px; }
+.form { float: left; width: 272px; border: 3px solid rgb(26, 188, 156); margin-top: 20px; margin-left: 76px; background-color: white; padding: 10px 20px; color: rgb(69, 69, 69); }
+.lv-order-form-css { border: medium none ! important; }
+.form { font-size: 16px; }
+.form input[type="text"] { font-size: 12px; border: 1px solid rgb(205, 205, 205); padding: 6px 6px 6px 36px; margin-top: 9px; width: 210px; color: rgb(180, 180, 180); }
+.lv-order-button[type="submit"], #part4 input { font-size: 16px; background: url('../images/send_button.png') no-repeat scroll 0% 0% transparent; width: 215px; height: 34px; color: white; border: medium none; margin: 9px 0px; padding: 0px ! important; font-family: OpenSans-Regular; }
+.form .lv-input-fio { background: url('../images/fio.png') no-repeat scroll 3px center transparent; }
+.form .lv-input-phone { background: url('../images/phone.png') no-repeat scroll 3px center transparent; }
+.h1 { font-size: 46px; font-family: OpenSans-Bold; color: white; text-align: center; }
+.h2 { font-size: 37px; font-family: OpenSans-Bold; color: white; text-align: center; margin-top: -8px; }
+.center_part { width: 1072px; margin: auto; padding-right: 45px; padding-left: 45px; }
+.vertical_space { width: 100%; height: 35px; }
+.end_float { clear: both; }
+.bold { font-family: OpenSans-Bold; }
+.semibold { font-family: OpenSans-Semibold; }
+#discount div { padding-left: 20px; color: white; }
+#discount .h1 { font-size: 41px; text-align: left; }
+#discount_text { text-align: left; }
+#part2 { margin-top: 40px; padding-left: 110px; }
+#part2 .redline { background-color: rgb(236, 0, 17); width: 188px; height: 10px; }
+#part2 .text { margin-top: 25px; width: 972px; font-size: 20px; color: rgb(69, 69, 69); }
+#part2 .h1 { color: rgb(26, 187, 156); text-align: left; text-transform: uppercase; }
+#part2 .image { font-size: 14px; text-align: center; width: 150px; float: left; color: rgb(56, 56, 56); margin-left: 32px; }
+#part2 .image .proc { font-size: 26px; margin-top: 10px; }
+#part2 .image .inner_image { height: 180px; }
+#part2 .image .text2 { margin-top: 10px; }
+#part3 { width: 100%; margin: 0px auto; background: url('../images/part3_background.jpg') no-repeat scroll center top transparent; overflow: auto; }
+#part3 .center_part { background: url('../images/part3_fon.png') no-repeat scroll 30px 75px transparent; text-align: left; height: 700px; padding-top: 75px; color: rgb(68, 68, 68); }
+#part3 .center_part .h1 { font-size: 41px; color: rgb(68, 68, 68); margin-top: -5px; margin-right: 80px; text-align: right; }
+#part3 .green_line { background-color: rgb(26, 187, 156); width: 188px; height: 10px; margin-left: 800px; margin-top: 10px; }
+#part3 .list { color: black; font-size: 20px; margin: 0px 20px; width: 500px; padding-left: 515px; }
+#part3 .list .li { float: left; margin-top: 10px; }
+#part3 .list .li div { float: left; }
+#part3 .list .li .img { width: 56px; padding-top: 10px; }
+#part3 .list .li div { width: 394px; }
+#part3 .list .li div.text { padding-left: 20px; }
+#part3 .list .li div.text div { height: 11px; }
+#part4 { width: 100%; margin: 0px auto; background: none no-repeat scroll center top rgb(26, 187, 156); overflow: auto; }
+#part4 .h1 { text-transform: uppercase; font-size: 41px; text-align: left; margin-left: 20px; }
+#part4 .gray_line { margin-left: 20px; background-color: rgb(79, 72, 76); width: 188px; height: 10px; margin-top: 10px; }
+#part4 .text { margin-left: 20px; font-size: 20px; color: white; }
+#part4 .list { color: white; margin-left: 20px; margin-top: 40px; }
+#part4 .list .li { float: left; width: 335px; text-transform: uppercase; margin-top: 10px; }
+#part4 .list .li div { float: left; }
+#part4 .list .li .img { width: 108px; }
+#part4 .list .li .desc { margin-top: 30px; margin-left: 30px; height: 108px; width: 195px; font-size: 20px; }
+#part5 { width: 100%; margin: 0px auto; overflow: auto; }
+#part5 .h1 { text-transform: uppercase; font-size: 41px; text-align: left; margin-left: 20px; color: rgb(26, 187, 156); }
+#part5 .red_line { margin-left: 20px; background-color: rgb(236, 0, 17); width: 188px; height: 10px; margin-top: 10px; }
+#part5 .opinions { margin-left: 20px; font-size: 20px; color: rgb(101, 107, 116); }
+#part5 .opinions .opinion { width: 100%; margin-top: 50px; }
+#part5 .opinions .opinion .img { float: left; width: 215px; }
+#part5 .opinions .opinion .text { width: 767px; float: left; padding-left: 30px; padding-right: 30px; }
+#part5 .opinions .left_line { background: url('../images/part5_leftline.png') no-repeat scroll 0% 0% transparent; }
+#part5 .opinions .right_line { background: url('../images/part5_rightline.png') no-repeat scroll 0% 0% transparent; float: right; }
+#part5 .opinions .left_line, #part5 .opinions .right_line { width: 368px; height: 14px; margin-top: 10px; margin-bottom: 10px; }
+#part5 .opinions .opinion.right { text-align: right; }
+.part6 { width: 100%; margin: -50px auto 0px; overflow: auto; background: url('../images/part6_fon.png') repeat-x scroll 0% 0% transparent; z-index: 7; }
+.part6 .inner { margin-left: 380px; padding-top: 30px; }
+.img_part6 { width: 345px; height: 352px; background: url('../images/box.png') no-repeat scroll left top transparent; z-index: 6; margin-top: -378px; }
+#header_image .countdown_ { margin-left: 45px; }
+.countdown_2 { margin-left: 45px; }
+.part6 .h1 { color: black; text-align: left; text-transform: uppercase; }
+.part6 .inner .text, .part6 .inner .form3 { float: left; }
+.part6 .inner .text { width: 330px; }
+.part6 .inner .innertext { color: rgb(69, 69, 69); margin-top: 10px; }
+.part6 .inner .text .proc { font-size: 12px; }
+#part7 .h1 { color: rgb(26, 187, 156); text-align: right; text-transform: uppercase; }
+#part7 .redline, #part10 .redline { background-color: rgb(236, 0, 17); width: 188px; height: 10px; margin-left: 881px; margin-top: 10px; }
+.floats { margin-left: 20px; font-size: 20px; color: rgb(72, 72, 72); }
+#part7 .floats .img { float: left; width: 330px; background: url('../images/part7_1.png') no-repeat scroll left top transparent; height: 266px; }
+#part8 .floats .img { float: left; width: 268px; background: url('../images/part8_1.png') no-repeat scroll left top transparent; height: 255px; margin-top: 30px; margin-left: 80px; }
+#part9 .floats .img { float: left; width: 379px; background: url('../images/part9_1.png') no-repeat scroll left top transparent; height: 227px; margin-top: 30px; }
+#part10 .floats .img { float: left; width: 68px; height: 68px; margin-top: 30px; }
+#part10 .floats .img.i1 { background: url('../images/part10_1.png') no-repeat scroll left top transparent; }
+#part10 .floats .img.i2 { background: url('../images/part10_2.png') no-repeat scroll left top transparent; }
+#part10 .floats .img.i3 { background: url('../images/part10_3.png') no-repeat scroll left top transparent; }
+#part10 .floats .img.i4 { background: url('../images/part10_4.png') no-repeat scroll left top transparent; }
+#part10 .floats .img.i5 { background: url('../images/part10_5.png') no-repeat scroll left top transparent; }
+#part10 .floats .img.i6 { background: url('../images/part10_6.png') no-repeat scroll left top transparent; }
+.floats .text { margin-left: 20px; float: left; width: 590px; margin-top: 70px; }
+#part9 .floats .text { margin-top: 45px; }
+#part10 .floats { margin-top: 10px; }
+.floats .text .small { font-size: 16px; color: rgb(124, 119, 112); margin-top: 10px; }
+.part7_line { width: 100%; height: 3px; background: url('../images/part7_line.png') repeat-x scroll 0% 0% transparent; }
+#part8 .floats .text { width: 620px; }
+#part9 .floats .text { width: 650px; }
+#part10 { width: 100%; background: url('../images/part10_fon.png') no-repeat scroll 0% 0% transparent; height: 1000px; }
+#part10 .floats .text { width: 420px; color: white; font-size: 20px; margin-top: 30px; }
+#part10 .h1 { margin-left: 20px; text-align: left; text-transform: uppercase; }
+#part10 .green_line { margin-left: 20px; background-color: rgb(26, 187, 156); width: 188px; height: 10px; margin-top: 10px; }
+#part11 { width: 100%; }
+#part11 .h1 { color: rgb(26, 187, 156); text-align: right; text-transform: uppercase; }
+#part11 .floats2 { float: left; width: 100%; }
+#part11 .floats2 .film { float: left; width: 560px; }
+#part11 .text { font-size: 20px; color: rgb(101, 107, 116); width: 420px; float: left; }
+#part12 { width: 100%; background-color: rgb(26, 187, 156); }
+#part12 .center_part {  }
+#part12 .footer { color: white; font-size: 16px; }
+#part12 .footer a { font-family: OpenSans-Bold; text-decoration: underline; color: white; }
+#discount_text, .part6 .inner .innertext { font-size: 26px; }
+#discount_text b, .part6 .inner .innertext b { font-size: 32px; }
